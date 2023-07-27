@@ -93,7 +93,7 @@
 
 
    <!-- Hero Saction -->
-   <section>
+   <section class="relative">
     <div class="carousel w-full max-w-screen-lg lg:ml-40 lg:mr-40">
       <div id="slide1" class="carousel-item relative w-full ">
         <div class="hero min-h-screen " style="background-image: url(./banner1.png);">
@@ -164,11 +164,64 @@
         </div>
       </div>
     </div>
+
+    <div class="grid sd:hiden md:grid-cols-2 lg:grid-cols-5 w-auto/12 lg:ml-64 border-3 bg-white rounded-lg shadow-lg gap-1 absolute lg:-mt-32 items-center lg:-mr-56">
+      <!-- fruits-1 -->
+      <div class="card w-40 justify-center ">
+        <figure class="px-10 pt-10">
+          <img class="w-24" src="./fruit1.png" alt="Shoes" class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <p>Apples</p>
+        </div>
+      </div>
+      <!-- end -->
+      <!-- fruits-2 -->
+      <div class="card w-40 ">
+        <figure class="px-10 pt-10">
+          <img class="w-16" src="./fruit2.png" alt="Shoes" class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <p>Orrange</p>
+        </div>
+      </div>
+      <!-- end -->
+      <!-- fruits-3 -->
+      <div class="card w-40 ">
+        <figure class="px-10 pt-10">
+          <img class="w-24" src="./fruit3.png" alt="Shoes" class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <p>Apples</p>
+          </div>
+      </div>
+      <!-- end -->
+      <!-- fruits-4 -->
+      <div class="card w-40 ">
+        <figure class="px-10 pt-10">
+          <img class="w-24" src="./fruit4.png" alt="Shoes" class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <p>Apples</p>
+        </div>
+      </div>
+      <!-- end -->
+      <!-- fruits-5 -->
+      <div class="card w-40 ">
+        <figure class="px-10 pt-10">
+          <img class="w-24" src="./fruit5.png" alt="Shoes" class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <p>Apples</p>
+          </div>
+      </div>
+      <!-- end -->
+      </div>
     </section>
 
 
 <!-- timer section -->
-<div class="hero lg:max-w-screen-lg lg:full lg:ml-40 lg:mr-40 mt-20 mb-20">
+<div class="hero sm:flex-col-1 mt- lg:max-w-screen-lg lg:full lg:ml-40 lg:mr-40 lg:mt-32 lg:mb-20">
   <div class="hero-content flex-col lg:flex-row-reverse">
     <div class="grid grid-flow-col gap-5 lg:justify-end auto-cols-max flex-1">
       <div class="flex flex-col">
@@ -207,10 +260,10 @@
 </div>
 
 <!-- Card Section -->
-<div class="grid grid-cols-4 max-w-screen-lg w-full gap-5 ml-40 mr-40">
+<div class="grid lg:grid-cols-4 lg:max-w-screen-lg w-full gap-5 lg:ml-40 lg:mr-40">
 
 <!-- card-01 -->
-  <div class="card w-auto bg-base-100 border">
+  <div id="modalmy" class="card w-auto bg-base-100 border">
     <figure class="px-10 pt-10">
       <img src="./fruit6.png" alt="Shoes" class="rounded-xl" />
     </figure>
@@ -298,12 +351,12 @@
 
 
 <!-- Met section -->
-<div class="max-w-screen-lg w-full ml-40 mr-40 text-center mt-10 mb-32">
+<div class="lg:max-w-screen-lg lg:w-full lg:ml-40 lg:mr-40 mt-12 text-center mb-32">
   <button class="btn btn-primary text-white bg-button">Shope Now</button>
 </div>
 
 
-<div class="max-w-screen-lg w-full ml-40 mr-40 text-center mt-10 mb-10">
+<div class="max-w-screen-lg w-full lg:ml-40 lg:mr-40 text-center lg:mt-10 lg:mb-10">
   <div class="hero min-h-screen" style="background-image: url(./banner1.png);">
     <div class="hero-overlay bg-opacity-70"></div>
     <div class="hero-content text-center text-neutral-content">
@@ -311,7 +364,7 @@
         <h1 class="mb-5 text-4xl font-bold">Meet our expert team members</h1>
         <p class="mb-5">Provident cupiditate voluptatem et in. <br> Quaerat fugiat ut assumenda excepturi exercitationem quasi.</p>
         
-      <div class="grid grid-cols-4 max-w-screen-lg w-full gap-1  text-neutral-content text-center">
+      <div class="grid m-0 lg:grid-cols-4 lg:max-w-screen-lg lg:w-full gap-1  text-neutral-content text-center">
           <!-- card-04 -->
            <div class="card w-52 ">
              <figure class="px-10 pt-10">
@@ -385,13 +438,13 @@
 </div>
 <!-- Met section end-->
 
-<div class="max-w-screen-lg mr-40 ml-40 mt-20 mb-20 text-center">
+<div class="lg:max-w-screen-lg lg:mr-40 lg:ml-40 lg:mt-20 lg:mb-20 text-center">
     <h1 class="text-5xl font-bold ">Why Choose Us</h1>
     <p class="py-6">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
 </div>
 
 <!-- Three part section-->
-<div class="grid grid-cols-3 max-w-screen-lg w-full ml-40 mr-40 gap-5">
+<div class="grid grid-cols-1 lg:grid-cols-3 lg:max-w-screen-lg lg:w-full lg:ml-40 lg:mr-40 gap-5">
   <div>
     <!-- left one-->      
     <div class="flex items-center gap-5 mb-6">
@@ -430,30 +483,37 @@
 
   <div><img class=" w-auto" src="./whychoose1.png" alt=""></div>
 
-
-
-  <div class="flex flex-row-reverse items-center gap-5 mb-10">
+<div>
+  <div class="flex lg:flex-row-reverse items-center gap-5 mb-10">
     <div>
-      <!-- right one-->      
-      <div class="flex flex-row-reverse items-center text-end gap-5 mb-6">
+       <!-- right three--> 
+      <div class="flex flex-row-reverse items-center text-end gap-5 mb-3">
         <div>
-          <i class="fa-solid fa-people-group text-3xl bg-slate-300 rounded-full p-3"></i>
+          <i class="fa-solid fa-hand-holding-dollar text-3xl bg-slate-300 rounded-full p-3"></i>
         </div>
         <div>
-          <h1 class="text-2xl font-bold">Integreted</h1>
-          <p>Professional employees are there for you the most amazing ans.</p>
-        </div>
-      </div>
-       <!-- right two--> 
-      <div class="flex flex-row-reverse items-center text-end gap-5 mb-6">
-        <div>
-        <i class="fa-solid fa-coins text-3xl bg-slate-300 rounded-full p-3"></i>
-        </div>
-        <div>
-          <h1 class="text-2xl font-bold">Sustainable Price</h1>
-          <p>Professional there the most employeesthere the most  are there the most amts.</p>
+          <h1 class="text-2xl font-bold">The Benefits Only</h1>
+          <p>Professional emplor you to pick <br> the most amazing and fresh fruits.</p>
         </div>
       </div>
+    </div>
+  </div>
+  <div class="flex lg:flex-row-reverse items-center gap-5 mb-3">
+    <div>
+       <!-- right three--> 
+      <div class="flex flex-row-reverse items-center text-end gap-5 mb-3">
+        <div>
+          <i class="fa-solid fa-hand-holding-dollar text-3xl bg-slate-300 rounded-full p-3"></i>
+        </div>
+        <div>
+          <h1 class="text-2xl font-bold">The Benefits Only</h1>
+          <p>Professional emplor you to pick <br> the most amazing and fresh fruits.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="flex lg:flex-row-reverse items-center gap-5 mb-10">
+    <div>
        <!-- right three--> 
       <div class="flex flex-row-reverse items-center text-end gap-5 mb-6">
         <div>
@@ -467,7 +527,7 @@
     </div>
   </div>
 </div>
-
+</div>
 
 <footer class="footer footer-center p-20 bg-black text-primary-content">
   <div>
